@@ -3,12 +3,11 @@
   "id": "data-exporter",
   "version": "${version}",
   "name": "Data Exporter",
-  "description": "",
+  "description": "Exports various types of data",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/data-exporter/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "me.mod.dataexporter.client.DataExporterClient"
